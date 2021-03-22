@@ -1,5 +1,6 @@
 package br.com.dio.basico.streams;
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -40,6 +41,8 @@ public class ClienteQueue {
         fila.add("Carlos");
         fila.add("Larissa");
         fila.add("Joao");
+
+        Collections.sort(fila);
 
         for(String nome : fila) {
             System.out.println(nome);
