@@ -42,7 +42,7 @@ public class ClienteQueue {
         fila.add("Larissa");
         fila.add("Joao");
 
-        Collections.sort(fila);
+        //Collections.sort(fila);
 
         for(String nome : fila) {
             System.out.println(nome);
