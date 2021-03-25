@@ -52,6 +52,8 @@ public class ClienteMap {
         estadosBrasileiros.put("RS", "Rio Grande do Sul");
         estadosBrasileiros.put("SC", "Santa Catarina");
         estadosBrasileiros.put("PR", "Parana");
+        estadosBrasileiros.put(null, "testes");
+        estadosBrasileiros.put(null, "testes");
 
         System.out.println(estadosBrasileiros);
 
@@ -75,5 +77,7 @@ public class ClienteMap {
         for(Map.Entry<String, String> entrada : estadosBrasileiros.entrySet()) {
             System.out.println(entrada.getValue() + " (" + entrada.getKey()+ ")");
         }
+
+        estadosBrasileiros.clear();
     }
 }
