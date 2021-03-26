@@ -42,6 +42,8 @@ public class ClienteStreamAPI {
         estudantes.add(andre);
         estudantes.add(brenda);
 
+        estudantes.stream().pee
+
         System.out.println(estudantes.stream().map((estudante)->estudante.getNome()).collect(Collectors.toList()));
         System.out.println(estudantes.stream().count());
         System.out.println(estudantes.stream().filter(
