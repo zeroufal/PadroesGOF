@@ -1,7 +1,4 @@
-package br.com.dio;
-
-import java.util.function.Function;
-import java.util.function.Predicate;
+package br.com.dio.java8;
 
 public class ClienteFuncaoAltaOrdem {
     public static void main(String[] args) {

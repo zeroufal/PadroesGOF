@@ -1,4 +1,4 @@
-package br.com.dio;
+package br.com.dio.java8;
 
 import java.util.HashMap;
 import java.util.Map;
