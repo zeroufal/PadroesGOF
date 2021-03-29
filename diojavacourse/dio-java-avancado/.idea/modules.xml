@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dio-java-avancado.iml" filepath="$PROJECT_DIR$/dio-java-avancado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dio.core/dio.core.iml" filepath="$PROJECT_DIR$/dio.core/dio.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dio.teste/dio.teste.iml" filepath="$PROJECT_DIR$/dio.teste/dio.teste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dio.util/dio.util.iml" filepath="$PROJECT_DIR$/dio.util/dio.util.iml" />
     </modules>
   </component>
 </project>
